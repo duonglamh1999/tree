@@ -18,3 +18,4 @@ def minDepth(root):
         return minDepth(root.right)+1
     if root.right is None:
         return minDepth(root.left)+1
+    #add max depth
